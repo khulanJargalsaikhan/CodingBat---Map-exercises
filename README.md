@@ -6,9 +6,9 @@
     if the key "potato" has a value, set that as the value for the key "fries". If the key "salad" has a value, 
     set that as the value for the key "spinach".
 
-    topping3({"potato": "ketchup"}) 	            	-- {"potato": "ketchup", "fries": "ketchup"}
-    topping3({"potato": "butter"}) 			-- {"potato": "butter", "fries": "butter"}
-    topping3({"salad": "oil", "potato": "ketchup"}) 	-- {"spinach": "oil", "salad": "oil", "potato": "ketchup", "fries": "ketchup"}
+    topping3({"potato": "ketchup"})			-- {"potato": "ketchup", "fries": "ketchup"}
+    topping3({"potato": "butter"})			-- {"potato": "butter", "fries": "butter"}
+    topping3({"salad": "oil", "potato": "ketchup"})	-- {"spinach": "oil", "salad": "oil", "potato": "ketchup", "fries": "ketchup"}
     
 *allSwap*
 
@@ -18,6 +18,6 @@
 	When a position in the array has been swapped, it no longer matches anything. 
 	Using a map, this can be solved making just one pass over the array. More difficult than it looks.
 
-    allSwap(["ab", "ac"]) 					-> ["ac", "ab"]
-    allSwap(["ax", "bx", "cx", "cy", "by", "ay", "aaa", "azz"]) -> ["ay", "by", "cy", "cx", "bx", "ax", "azz", "aaa"]
-    allSwap(["ax", "bx", "ay", "by", "ai", "aj", "bx", "by"]) 	-> ["ay", "by", "ax", "bx", "aj", "ai", "by", "bx"]
+    allSwap(["ab", "ac"])					-> ["ac", "ab"]
+    allSwap(["ax", "bx", "cx", "cy", "by", "ay", "aaa", "azz"])	-> ["ay", "by", "cy", "cx", "bx", "ax", "azz", "aaa"]
+    allSwap(["ax", "bx", "ay", "by", "ai", "aj", "bx", "by"])	-> ["ay", "by", "ax", "bx", "aj", "ai", "by", "bx"]
