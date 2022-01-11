@@ -43,8 +43,6 @@ firstChar([]) 										->{}
 				result = result + strings[i];
 				map.put(key, result);
 			}
-
-
 		}
 
 		return map;
