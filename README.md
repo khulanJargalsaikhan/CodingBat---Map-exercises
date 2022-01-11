@@ -21,3 +21,14 @@
     allSwap(["ab", "ac"])					-> ["ac", "ab"]
     allSwap(["ax", "bx", "cx", "cy", "by", "ay", "aaa", "azz"])	-> ["ay", "by", "cy", "cx", "bx", "ax", "azz", "aaa"]
     allSwap(["ax", "bx", "ay", "by", "ai", "aj", "bx", "by"])	-> ["ay", "by", "ax", "bx", "aj", "ai", "by", "bx"]
+
+
+*firstChar*
+
+	Given an array of non-empty strings, return a Map<String, String> with a key for every different first character seen, 
+	with the value of all the strings starting with that character appended together in the order they appear in the array.
+
+
+	firstChar(["salt", "tea", "soda", "toast"]) 		-> {"s": "saltsoda", "t": "teatoast"}
+	firstChar(["aa", "bb", "cc", "aAA", "cCC", "d"])	-> {"a": "aaaAA", "b": "bb", "c": "cccCC", "d": "d"}
+	firstChar([]) 						->{}
